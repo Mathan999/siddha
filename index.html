@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/app.css">
+
+  <title>Frontendor | Component</title>
+</head>
+
+<body>
+
+   
+    
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+        <li class="hero-nav__item">
+          <img class="hero-nav__logo" src="assets/imgs/logo1.png">
+        </li>
+        <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+          <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+            <li class="flex-grow-1">
+              <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                <li class="hero-nav__item">
+                  <a href="#contact-us" class="hero-nav__link">எங்களை தொடர்பு கொள்ள</a>
+                </li>
+               
+              <li class="hero-nav__item">
+                  <a href="#testimonials" class="hero-nav__link">சான்றுகள்</a>
+                </li>
+              
+                <li class="hero-nav__item">
+                  <a href="#product" class="hero-nav__link">தயாரிப்பு</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="ft-menu__close-btn animated">
+            <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                clip-rule="evenodd" />
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </li>
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="text-center px-2">
+            <i class="fas fa-bars"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero__content container mx-auto">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-0">
+          <h1 class="hero__title mb-3">
+            எங்கள் தயாரிப்பு<span class="highlight">இயற்கையான தயாரிப்பு</span> <span class="highlight">தயாரிப்பை ஆர்டர் செய்ய கீழே உள்ள இணைப்பை கிளிக் செய்யவும்</span>
+          </h1>
+          <p class="hero__paragraph mb-5">
+            வணக்கம் மக்களே! இன்று நாங்கள் அனைத்து உலகின் பிரம்மாண்ட ஆயுர்வேடிக் குடிகளையும் உங்களுக்கு வழங்குகிறோம்! எந்த இயற்கை பாரம்பரிய சிற்பி போல உங்கள் ஆரோக்கியம் வளர உதவும் மருந்துகளை அணுகல் மூலம் உங்கள் வீட்டிற்கு அனுப்புவோம்!
+          </p>
+          <div class="hero__btns-container">
+            <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="Siddha.apk" download> 
+              பயன்பாட்டைப் பதிவிறக்கவும்
+            </a>
+           
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0 mx-0">
+          <div class="hero__img-container">
+            <img src="assets/imgs/img-1.png" class="hero__img w-80" height="600px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+<!-- ===================================== -->
+
+  
+
+  <!-- ======================================== -->
+
+  <div id="testimonials" class="block-20 space-between-blocks">
+    <div class="container">
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">வாங்குபவர்கள் எங்களைப் பற்றி என்ன சொல்கிறார்கள்</h1>
+        
+      </div>
+      <div class="row px-2 pt-4">
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              மருந்து எப்போதும் மனதில் ஒரு பொருளாக இருக்கும். என் குழந்தையின் உடலில் என்ன நடக்கிறது என்று நான் எப்போதும் எண்ணிக் கொள்ளுகிறேன். ஆனால் இந்த ஆயுர்வேத மருந்து என் குழந்தைக்கு அதிகமான நலம் வரும் என்று கண்டிப்பாக சொல்ல வேண்டும். நான் இதை எப்போதும் எளிதில் வாங்குவதை விரும்புகிறேன்!
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/profile3.png">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">ராஜேஷ்</span>
+               
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              உங்கள் ஆயுர்வேடிக் மருந்துகள் பரிசுப்படுத்தப்பட்ட அனுபவங்கள் என் உடலில் உதவியுள்ளன. பதில் வாங்க நினைத்துவிடுகிறேன்! உங்கள் உறுப்பினர்கள் வழங்கும் மருந்துகள் என் உடல் நலம் மீது அதிர்ச்சியடைத்துள்ளன. நன்றி! சேவை மிகவும் மெதுவாக இருந்தது. எனக்கு மிகவும் அருகில் இருந்து உதவிக்கு நன்றி!
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/profile2.png">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">அருண்</span>
+                
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              உங்கள் உறுப்பினர்கள் செயல்படுத்தும் மருந்துகள் என் உடலை அதிர்ச்சியடைத்துள்ளன. நான் அதிர்ஷ்டமாக உங்களைக் காண உதவிக்கு நன்றி!
+              உங்கள் ஆதரவு மிகவும் மகிழ்ச்சியாக அமைந்துள்ளது. மீண்டும் உங்களைப் பார்த்துவிடும் என்பதே என் விருது! நான் உங்கள் மருந்துகளைக் கொண்டு நான் பெற்ற நன்கு மதிப்பை பதில் செய்கிறேன்!
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/profile1.jpg">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">பேச்சிமுத்து</span>
+                
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  
+  <!-- =================================== -->
+
+ 
+
+  <!-- =================================== -->
+
+  <div id="contact-us" class="block-28 space-between-blocks border-top border-bottom">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-lg-6 h-100 block-28__content-side">
+          <div class="contact-info">
+           
+            <div class="mb-5">
+              <h6 class="contact-info__title-2 mb-3">எங்களை தொடர்பு கொள்ள</h6>
+              <p class="d-flex flex-column">
+                <span class="contact-info__item mb-2">VijayPrakash@gmail.com</span>
+                <span class="contact-info__item">தொலைபேசி எண்: 7904737833</span>
+              </p>
+            </div>
+            <div class="mb-5">
+              
+              
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 h-100 block-28__form-side">
+          <form onsubmit="submitContactForm(event)" class="contact-form text-center">
+            <div class="contact-form__header mb-5">
+                     </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div class="block-32 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div class="block-44 py-5">
+    <div class="container">
+      <div class="row px-0 mx-0 justify-content-center align-items-center">
+        <div class="block-44__logo-container">
+         
+        </div>
+        <ul class="block-44__list list-unstyled justify-content-center mb-0">
+         
+        </ul>
+      </div>
+    </div>
+    <hr class="block-44__divider">
+    <div class="container">
+      <div class="row flex-column flex-md-row px-2 justify-content-center">
+        <div class="flex-grow-1">
+          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+            <img class="hero-nav__logo" src="assets/imgs/logo1.png">
+            </li>
+          </ul>
+        </div>
+        <p class="block-41__copyrights">&copy;  2024 உங்கள் பிராண்ட் பெயர். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
